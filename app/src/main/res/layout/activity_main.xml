@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+
+
+    <EditText
+        android:id="@+id/inputtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:hint="Masukkan Nilai"
+        android:inputType="text"
+        android:padding="30dp" />
+
+    <TextView
+        android:id="@+id/tampilan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputtext"
+        android:layout_marginTop="-1dp"
+        android:text="+"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/inputtext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tampilan"
+        android:hint="Masukkan Nilai "
+        android:inputType="text"
+        android:padding="30dp"/>
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:layout_below="@id/inputtext2"/>
+
+
+
+
+</RelativeLayout>
